@@ -8,6 +8,6 @@ export class UsersService {
 
 
   create(body: any) {
-    return this.pubsubService.publishMessage(body.message);
+    return this.pubsubService.publishMessage(JSON.stringify(body));
   }
 }
