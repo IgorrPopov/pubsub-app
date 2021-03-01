@@ -23,7 +23,7 @@ module.exports = {
   "parserOptions": {
       // Движку нужен проект TS для правил с типами
       "project": "tsconfig.json",
-      "tsconfigRootDir": "."
+      "tsconfigRootDir": "./"
   },
   // Плагин с наборами правил для TypeScript
   "plugins": [
